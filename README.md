@@ -4,5 +4,7 @@ Thie version of FUSE kernel is used with the example passthrough in libfuse. I h
 
 ## Build Environment
 First you need to compile a Linux kernel version 4.8.5, before your compilation, you should remove the FUSE module in the config file;
-Second, youcan download the code here and compile them to the fuse.ko and cuse.ko module;
+
+Second, you can download the code here and compile them to the fuse.ko and cuse.ko module;
+
 Last, install these two module and then you can run your own FUSE file system with improved performance.
